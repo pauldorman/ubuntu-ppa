@@ -17,6 +17,8 @@ binary-arch:
 	mkdir -p debian/tmp/usr/bin
 	cp planck-c/build/planck debian/tmp/usr/bin
 	cp planck-sh/plk debian/tmp/usr/bin
+	mkdir -p debian/tmp/usr/share/man/man1
+	cp planck-man/*.1 debian/tmp/usr/share/man/man1
 	mkdir debian/tmp/DEBIAN
 	dpkg-gencontrol -pplanck
 	dpkg --build debian/tmp ..
