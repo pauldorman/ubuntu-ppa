@@ -17,7 +17,7 @@ On Ubuntu, clone and then make a sources archive that includes all necessary JAR
 0. `cp /usr/local/bin/clojure planck-cljs/script`
 0. `cp /usr/local/lib/clojure/deps.edn planck-cljs/script`
 0. `cp /usr/local/lib/clojure/example-deps.edn planck-cljs/script`
-0. `cp -r /usr/local/lib/clojure/libexec planck-cljs/script/libexec` (make sure files copied are listed in `debian/source-include-binaries`)
+0. `cp -r /usr/local/lib/clojure/libexec planck-cljs/script/libexec` (make sure files copied are listed in `debian/source/include-binaries`)
 0. Edit `planck-cljs/script/clojure` and revise `install_dir` to be `script`
 0. `FAST_BUILD=1 script/build-sandbox`
 0. `BUILD_PPA=1 script/clean`
