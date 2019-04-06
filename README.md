@@ -43,6 +43,6 @@ On Ubuntu, clone and then make a sources archive that includes all necessary JAR
 
 # License
 
-Copyright © 2018 Mike Fikes and Contributors
+Copyright © 2018–2019 Mike Fikes and Contributors
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
