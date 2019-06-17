@@ -8,6 +8,6 @@ Homepage: https://planck-repl.org
 
 Package: planck
 Architecture: any
-Depends: libjavascriptcoregtk-4.0-bin, libzip4, libcurl3-gnutls
+Depends: libjavascriptcoregtk-4.0-bin, libzip5, libcurl3-gnutls
 Description: Stand-alone ClojureScript REPL
  A stand-alone ClojureScript REPL for macOS and Linux based on JavaScriptCore.
