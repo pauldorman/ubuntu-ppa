@@ -6,6 +6,8 @@ On Ubuntu, clone and then make a sources archive that includes all necessary JAR
 
 > Note: If upgrading to a newer clj tool version, then `debian/source-include-binaries` needs to be updated.
 
+If a release has not yet been made for the desired release version, follow these steps:
+
 0. `ssh` to Ubuntu build box.
 0. `curl -O https://download.clojure.org/install/linux-install-1.9.0.358.sh`
 0. `chmod +x linux-install-1.9.0.358.sh`
@@ -25,6 +27,12 @@ On Ubuntu, clone and then make a sources archive that includes all necessary JAR
 0. `tar cvzf planck_2.<x>.<y>.orig.tar.gz planck`
 
 > To check that there are no problems building in a sandbox, unarchive the above into a new directory in `/tmp`, `export HOME=/sbuild-nonexistent`, and try `script/build-sandbox`.
+
+If a release has already been made for the desired release version, and a release for a new Ubuntu version is desired, use the existing `planck_2.<x>.<y>.orig.tar.gz` file. (Go onto LaunchPad and download a previous copy if needed.)
+
+If the `planck` tree is no longer available:
+
+0. `tar xvzf planck_2.24.0.orig.tar.gz`
 
 ## Configure PPA Build Files
 
