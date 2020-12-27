@@ -51,6 +51,6 @@ If the `planck` tree is no longer available:
 
 # License
 
-Copyright © 2018–2019 Mike Fikes and Contributors
+Copyright © 2018–2020 Mike Fikes and Contributors
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
