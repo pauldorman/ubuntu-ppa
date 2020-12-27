@@ -9,9 +9,9 @@ On Ubuntu, clone and then make a sources archive that includes all necessary JAR
 If a release has not yet been made for the desired release version, follow these steps:
 
 0. `ssh` to Ubuntu build box.
-0. `curl -O https://download.clojure.org/install/linux-install-1.9.0.358.sh`
-0. `chmod +x linux-install-1.9.0.358.sh`
-0. `sudo ./linux-install-1.9.0.358.sh`
+0. `curl -O https://download.clojure.org/install/linux-install-1.10.1.763.sh`
+0. `chmod +x linux-install-1.10.1.763.sh`
+0. `sudo ./linux-install-1.10.1.763.sh`
 0. `git clone https://github.com/planck-repl/planck`
 0. `git clone https://github.com/planck-repl/ubuntu-ppa`
 0. `cp -r ubuntu-ppa/debian planck`
